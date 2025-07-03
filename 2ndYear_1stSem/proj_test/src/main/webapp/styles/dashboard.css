@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding-top: 92px;
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    background-color: #f9f7f7;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    column-gap: 20px;
+    margin: 150px auto 241px;
+}
+
+.container button {
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: 32px;
+    background-color: #3f72af;
+    color: #f9f7f7;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    transition: box-shadow 0.15s;
+}
+
+.container button:hover {
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.45);
+    background-color: #112d4e;
+}
